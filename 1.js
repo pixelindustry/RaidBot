@@ -16,9 +16,9 @@ console.log(`deadrose bot >> Starting...`.yellow.bold);
 
 const { VK, Keyboard } = require("vk-io");
 const vk = new VK({
-    token: "2e29b0f5d8fda69986a585e8664ac3469756fb77f85c3f456a220da829072c7a88165f823616d22bc45c5",
+    token: "вместо моих слов токен",
     apiMode: "parallel",
-    pollingGroupId: 197148731
+    pollingGroupId: сюда айди
 });
 
 vk.updates.use(async (ctx, next) => {
